@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: #000000;
+}
+
+h1{
+    color: #17d4fe;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17d4fe;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 7px;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+      letter-spacing: 1px;
+      font-size: 40px;
+    }
+    .clock{
+        letter-spacing: 2px;
+        text-align: center;
+    }
+  }
